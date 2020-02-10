@@ -1,0 +1,3 @@
+#!/bin/sh 
+
+ssh level$1@localhost -p $(($1+2200))
